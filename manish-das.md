@@ -68,19 +68,19 @@
             ```json
             {
                 /* data contains the profile object saved in the DB */
-                data: {
-                    id: /* the github username */
-                    name: /* the profile name */
+                "data": {
+                    "id": "thehalfbloodprince", /* the github username */
+                    "name": "Severus Snape"/* the profile name */
                     ...
                 },
-                found: true
+                "found": true
             }
             ```
         2. if that user's profile does not exist on the DB:
             ```json
             {
                 /* no data object */
-                found: false
+                "found": false
             }
             ```
 
